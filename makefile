@@ -1,4 +1,4 @@
-all: clean README.md
+all: README.md
 README.md: guessinggame.sh
 	touch README.md
 	echo "# The title of the project: *Guessing Game*" > README.md
